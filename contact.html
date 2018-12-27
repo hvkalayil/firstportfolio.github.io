@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hosea Varghese | Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <script>
+        function openNav() {
+        document.getElementById("sidebar").style.visibility = "visible";
+        document.getElementById("sidebar").style.width = "50vw";
+        document.getElementById("bigman").style.opacity="0.2"
+        document.getElementById("mobileside").style.visibility = "hidden";
+        }
+
+        function closeNav() {
+        document.getElementById("sidebar").style.width = "0vw";
+        document.getElementById("bigman").style.opacity="1"
+        document.getElementById("sidebar").style.visibility = "hidden";
+        document.getElementById("mobileside").style.visibility = "visible";
+        }      
+    </script>
+
+</head>
+<body>
+    <div id="sidebar">
+    <h1 class="mainhead">HOSEA<br>VARGHESE</h1>
+    <nav>
+        <hr>
+        <div class="sideitem"><a href="./index.html">PORTFOLIO </a></div>
+        <div class="sideitem"><a href="./about.html">ABOUT ME </a></div>
+        <div class="sideitem"><a href="#" onclick="closeNav()">CONTACT ME</a></div>
+        <hr>
+    </nav>
+    <span onclick="closeNav()">
+    <a href="#"><p class="closeButn"> &#9932; </p></a>
+    </span>
+    </div>
+
+    <div id="bigman">
+
+    <div id="mobileside"> 
+        <a class="sideButn" href="#" onclick="openNav()">&#9776;</a>   
+        <p class="headin"> HVK </p>
+    </div>
+
+    <div class="contact">
+        
+        <div class="aboutContent">
+            <img src="./Assets1/call.jpg">
+            <div class="aboutHead"><h1>Contact Me</h1></div>
+        </div>
+
+        <div class="cntForm">
+            <div class="cntSub">
+                <h1>Got A project for me?</h1>
+                <h2>I can help promote your brand with stunning graphics and animations.
+                    You can look me up in social medias using the links below.
+                </h2>
+
+                <a href="mailto:hoseakalayil@gmail.com" target="_blank">
+                    <img src="./Assets1/gmail.jpg">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100010388022995" target="_blank">
+                    <img src="./Assets1/fb.jpg">
+                </a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank">
+                    <img src="./Assets1/insta.jpg">
+                </a>
+                <a href="https://twitter.com/hvkz______" target="_blank">
+                    <img src="./Assets1/twitter.jpg">
+                </a>
+                <a href="https://wa.me/919207202460" target="_blank">
+                    <img src="./Assets1/whatsap.jpg">
+                </a>
+                <a href="https://www.linkedin.com/in/hosea-varghese-693503121" target="_blank">
+                    <img src="./Assets1/linkedin.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

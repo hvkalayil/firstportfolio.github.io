@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hosea Varghese | About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <script>
+        function openNav() {
+        document.getElementById("sidebar").style.visibility = "visible";
+        document.getElementById("sidebar").style.width = "50vw";
+        document.getElementById("bigman").style.opacity="0.2"
+        document.getElementById("mobileside").style.visibility = "hidden";
+        }
+
+        function closeNav() {
+        document.getElementById("sidebar").style.width = "0vw";
+        document.getElementById("bigman").style.opacity="1"
+        document.getElementById("sidebar").style.visibility = "hidden";
+        document.getElementById("mobileside").style.visibility = "visible";
+        }      
+    </script>
+
+</head>
+<body>
+    <div id="sidebar">
+    <h1 class="mainhead">HOSEA<br>VARGHESE</h1>
+    <nav>
+        <hr>
+        <div class="sideitem"><a href="./index.html" onclick="closeNav()">PORTFOLIO </a></div>
+        <div class="sideitem"><a href="#" onclick="closeNav()" >ABOUT ME </a></div>
+        <div class="sideitem"><a href="./contact.html">CONTACT ME</a></div>
+        <hr>
+    </nav>
+    <span onclick="closeNav()">
+    <a href="#"><p class="closeButn"> &#9932; </p></a>
+    </span>
+    </div>
+
+    <div id="bigman">
+
+    <div id="mobileside"> 
+        <a class="sideButn" href="#" onclick="openNav()">&#9776;</a>   
+        <p class="headin"> HVK </p>
+    </div>
+
+    <div id="about">
+        <div class="aboutContent">
+            <img src="./Assets1/pic.jpg">
+            <div class="aboutHead"><h1>About Me</h1></div>
+        </div>
+        <div class="aboutText">
+            <p>Hi, my name is Hosea Varghese. I live in Kerala, India.
+                I like to draw and design graphics. I was not gifted with
+                good drawing skills, but I had a passion for it. And, I learned
+                that everything is possible with hard work. I secured 2 internships
+                in 2 businesses as a graphic designer.
+            </p>
+            <p>
+                I'am also a programer. I developed this website using
+                HTML,CSS and JavaScript. My ambition is to work in a stream in which
+                I can club both of my passions. And, I found game development to be 
+                a good choice since it requires both programming logic and some designer 
+                creativity. And, thats all about me. If you like my works and want to 
+                contact me.
+            </p>
+            <div class="clickButn">
+                <a href="./contact.html">Click here.</a>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
