@@ -37,6 +37,11 @@ a{
     padding: 2.5vh;
 }
 
+.hdbag{
+    display: inline-block;
+    margin-left: 5vw;
+}
+
 .headin{
     display: inline;
     margin: 0;
@@ -119,6 +124,7 @@ a{
 }
 
 .clickButn{
+    align-content: center;
     background: white;
     display: inline;
     padding: 1vw 2vw;
@@ -172,6 +178,12 @@ a{
 }
 
 @media screen and (max-width:600px){
+
+
+    .hdbag{
+        margin-left: 0;
+    }
+
     body{
         font-size: 2vw;
     }
